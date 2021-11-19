@@ -1,0 +1,22 @@
+*{
+	margin-botton:5px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.title{
+	text-align:center;
+	margin:50px 0px;
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse:collapse;	
+}
+
+#container{
+	display:flex;
+}
+div{
+	margin:15px;
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AZTERKETA</title>
+<link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+	<h2 class="title">WORLD APPLICATION</h2>
+	
+	<div id="container">
+
+		<div class="nav">
+			
+			<div>
+				<span>Show all countries in selected continent: </span>
+				 <select id='cmbContinent'>
+				    <option value="-1">Select a continent....</option>
+					<option value="Africa">Africa</option>
+					<option value="Antarctica">Antarctica</option>
+					<option value="Asia">Asia</option>
+					<option value="Europe">Europe</option>
+					<option value="North America">North America</option>
+					<option value="Oceania">Oceania</option>
+					<option value="South America">South America</option>
+				</select>
+			</div>
+			<div>
+				<span>Show all countries where official language is : </span>
+				 <select id='cmbLanguage'>
+				 	<option value="-1">Select a language....</option>
+					<option value="English">English</option>
+					<option value="Spanish">Spanish</option>
+					<option value="Chinese">Chinese</option>
+					<option value="Italian">Italian</option>
+					<option value="French">French</option>
+					<option value="Arabic">Arabic</option>
+					<option value="German">German</option>
+			    </select>
+			</div>
+			<div>
+				<span>Show city card :</span>
+				 <select id='cmbCity'>
+				 
+				 	<!-- fill with the city list -->
+				 
+			    </select>
+
+			</div>
+			<br/>
+			<button  id="logout">Log out</button>
+			<br>
+
+		</div> <!-- nav -->
+		
+		<div id="showData">
+		
+			<!-- fill with the information-->
+		</div>
+	</div>
+
+	<script src="js/jsFunctionsWorld.js"></script>
+
+</body>
+</html>
